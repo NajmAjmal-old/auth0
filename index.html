@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Auth0 Login Sample</title>
+  <link rel="stylesheet" type="text/css" href="public/css/main.css" />
+</head>
+<body>
+  <h2>SPA Authentication Sample</h2>
+  <p>Welcome to our page!</p>
+  <button id="btn-login">Log in</button>
+  <button id="btn-logout" style="display: none;">Log out</button>
+
+  <!-- Add Auth0 configuration here -->
+  <script>
+    const auth0Domain = 'najm.uk.auth0.com';
+    const auth0ClientId = 'LZyoFpRdyzm2lu9T60dYHaBP9JMslVK2';
+  </script>
+
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.0/auth0-spa-js.production.js"></script>
+  <script src="public/js/app.js"></script>
+</body>
+</html>
